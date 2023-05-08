@@ -1,0 +1,26 @@
+.headerLabel {
+    font-style: italic;
+    color: darkred;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    color: #a16b03;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu li:hover {
+    color: #f19d09;
+    text-decoration: underline;
+}
